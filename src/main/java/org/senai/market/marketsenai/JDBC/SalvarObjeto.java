@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class TestaInsert {
+public class SalvarObjeto {
     public static void main(String[] args) {
         try (Connection connection = CriaConexao.getConexao()) {
             Statement stm = connection.createStatement();
